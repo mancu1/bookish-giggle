@@ -11,8 +11,26 @@
         <v-col class="mb-5" cols="12">
           <v-row align="center" justify="center" dense>
             <v-spacer />
-            <v-select class="ma-4" dark label="Квартира" dense rounded filled />
-            <v-select class="ma-4" dark label="Комнаты " dense rounded filled />
+            <v-col cols="3">
+              <v-select
+                class="ma-2"
+                dark
+                label="Квартира"
+                dense
+                rounded
+                filled
+              />
+            </v-col>
+            <v-col cols="3">
+              <v-select
+                class="ma-2"
+                dark
+                label="Комнаты "
+                dense
+                rounded
+                filled
+              />
+            </v-col>
             <v-spacer />
           </v-row>
           <v-row>
