@@ -1,18 +1,18 @@
 <template>
-  <v-col align-self="center" cols="12">
+  <v-col cols="12" class="pa-0 ma-0">
     <v-row align="start">
       <v-spacer class="col-1" />
-      <div class="col-3">
+      <v-col cols="3">
         <v-btn text>
           <span>РЕКОМЕНДУЕМ</span>
         </v-btn>
         <v-btn text>
           <span>НОВЫЕ</span>
         </v-btn>
-      </div>
+      </v-col>
       <v-spacer class="col-1" />
       <v-col cols="2">
-        <v-select label="Сортировка" outlined flat rounded />
+        <v-select label="Сортировка" dense outlined flat rounded />
       </v-col>
       <v-spacer class="col-5" />
     </v-row>

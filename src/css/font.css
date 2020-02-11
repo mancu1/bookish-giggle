@@ -1,0 +1,161 @@
+:root {
+    --white: #ffffff;
+    --sky: #83c6ff;
+    --jade: #1baf5d;
+    --medium-purple: #88499c;
+    --squash: #f19e1f;
+}
+
+@font-face {
+    font-family: Tahoma;
+    src: local(Tahoma),
+    url(../assets/fonts/Tahoma.eot) format("opentype"),
+    url(../assets/fonts/Tahoma.woff) format("woff"),
+    url(../assets/fonts/Tahoma.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+}
+.Text-Style-4 {
+    font-family: Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+}
+.Text-Style-3 {
+    font-family: Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+}
+.Text-Style-8 {
+    font-family: Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+}
+.Text-Style-12 {
+    font-family: Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.67;
+    letter-spacing: normal;
+    text-align: center;
+    color: #566375;
+}
+.Text-Style-6 {
+    font-family: Tahoma, sans-serif;
+    font-size: 16.7px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000101;
+}
+.Text-Style-7 {
+    font-family: Tahoma, sans-serif;
+    font-size: 16.7px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+}
+.Text-Style-13 {
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+}
+.Text-Style {
+    font-family: Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: center;
+    color: #566375;
+}
+.Text-Style-11 {
+    font-family: Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #566375;
+}
+.Text-Style-10 {
+    font-family: Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #96a6a7;
+}
+.Text-Style-2 {
+    font-family: Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 4;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--jade);
+}
+.Text-Style-5 {
+    font-family: Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 4;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+}
+.Text-Style-9 {
+    font-family: Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 4;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--medium-purple);
+}

@@ -10,17 +10,16 @@
       <!--        width="40"-->
       <!--      />-->
     </div>
-
-    <v-spacer></v-spacer>
+    <v-spacer />
     <div class="d-flex align-center">
       <v-btn target="_blank" text>
         <span>Клиенту</span>
       </v-btn>
       <v-btn target="_blank" text>
-        <span>Раотнику</span>
+        <span>работнику</span>
       </v-btn>
       <v-btn target="_blank" text>
-        <span>Арендодателю</span>
+        <span>арендодателю</span>
       </v-btn>
       <div class="mx-3 mt-4 align-center justify-center">
         <v-text-field
