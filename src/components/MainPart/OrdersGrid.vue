@@ -3,11 +3,13 @@
     <v-row>
       <v-spacer />
       <div class="d-grid col-temp-4">
-        <Order style="width: 210px" v-for="n in count" v-bind:key="n" />
+        <Order style="width: 210px" v-for="n in count / 2" v-bind:key="n" />
+        <Comment class="long-grid-cell" style="width: 455px" />
+        <Order style="width: 210px" v-for="n in count / 2" v-bind:key="n" />
       </div>
       <v-spacer />
     </v-row>
-    <v-row class="mt-10">
+    <v-row class="my-12">
       <v-btn class="ma-auto" text @click="loadMore">
         <span>
           Загрузить еще...
@@ -19,17 +21,18 @@
 
 <script>
 import Order from "./Order";
+import Comment from "./Comment";
 export default {
   name: "OrdersGrid",
-  components: { Order },
+  components: { Comment, Order },
   data() {
     return {
-      count: 16
+      count: 12
     };
   },
   methods: {
     loadMore() {
-      this.count += 16;
+      this.count += 12;
     }
   }
 };
@@ -42,5 +45,8 @@ export default {
 .col-temp-4 {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 36px;
+}
+.long-grid-cell {
+  grid-column-start: span 2;
 }
 </style>

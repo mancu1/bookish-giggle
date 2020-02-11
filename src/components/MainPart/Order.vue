@@ -23,12 +23,12 @@
       </div>
       <v-spacer />
     </v-row>
-    <p class="text-center">
+    <p class="text-center my-0">
       <span class="Text-Style">
         {{ order.name }}
       </span>
     </p>
-    <p class="text-center">
+    <p class="text-center my-0">
       <span class="Text-Style-2">
         {{ order.user }}
       </span>

@@ -30,10 +30,15 @@
         >
         </v-text-field>
       </div>
-      <div style="color: #7a4999">
-        <v-btn color="#7a4999" dark>
+      <div v-if="!isLogin">
+        <v-btn color="#7a4999" dark @click="openPopup">
           <v-icon>mdi-login</v-icon>
           <span>Вход</span>
+        </v-btn>
+      </div>
+      <div v-else>
+        <v-btn @click="isLogin = false">
+          <span>{{ name }}</span>
         </v-btn>
       </div>
     </div>
@@ -42,7 +47,25 @@
 
 <script>
 export default {
-  name: "Header"
+  name: "Header",
+  computed: {
+    isLogin: {
+      get() {
+        return this.$store.state.login;
+      },
+      set(newVal) {
+        this.$store.commit("setLogin", newVal);
+      }
+    },
+    name() {
+      return this.$store.state.name;
+    }
+  },
+  methods: {
+    openPopup() {
+      this.$store.commit("setPopup", true);
+    }
+  }
 };
 </script>
 
