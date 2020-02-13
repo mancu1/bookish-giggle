@@ -78,7 +78,15 @@ export default {
 .d-grid {
   display: grid;
 }
-.grid-2 {
-  grid-template-columns: 1fr 3fr;
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .grid-2 {
+    grid-template-rows: 1fr 3fr;
+  }
+}
+@media screen and (min-width: 480px) {
+  .grid-2 {
+    grid-template-columns: 1fr 3fr;
+  }
 }
 </style>

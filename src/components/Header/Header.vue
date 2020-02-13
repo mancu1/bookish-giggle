@@ -10,17 +10,19 @@
       <!--        width="40"-->
       <!--      />-->
     </div>
-    <v-spacer />
+    <v-spacer class="hidden-sm-and-down" />
     <div class="d-flex align-center">
-      <v-btn target="_blank" text>
-        <span>Клиенту</span>
-      </v-btn>
-      <v-btn target="_blank" text>
-        <span>работнику</span>
-      </v-btn>
-      <v-btn target="_blank" text>
-        <span>арендодателю</span>
-      </v-btn>
+      <div class="hidden-sm-and-down">
+        <v-btn target="_blank" text>
+          <span>Клиенту</span>
+        </v-btn>
+        <v-btn target="_blank" text>
+          <span>работнику</span>
+        </v-btn>
+        <v-btn target="_blank" text>
+          <span>арендодателю</span>
+        </v-btn>
+      </div>
       <div class="mx-3 mt-4 align-center justify-center">
         <v-text-field
           dense

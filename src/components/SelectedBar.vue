@@ -1,5 +1,5 @@
 <template>
-  <v-col cols="12" class="pa-0 ma-0">
+  <v-col cols="12" class="pa-0 ma-0 hidden-sm-and-down">
     <v-row align="start">
       <v-spacer class="col-1" />
       <v-col cols="3">
