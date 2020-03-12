@@ -4,6 +4,8 @@ import router from "./router";
 import store from "./store";
 import vuetify from "./plugins/vuetify";
 import "./css/font.css";
+import { gsap, CSSPlugin } from "gsap/all";
+gsap.registerPlugin(CSSPlugin);
 
 Vue.config.productionTip = false;
 

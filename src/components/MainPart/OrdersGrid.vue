@@ -5,7 +5,11 @@
       <div class="d-grid grid-col-temp">
         <Order style="width: 210px" v-for="n in count / 2" v-bind:key="n" />
         <Comment class="long-grid-cell" />
-        <Order style="width: 210px" v-for="n in count / 2" v-bind:key="n" />
+        <Order
+          style="width: 210px"
+          v-for="n in count / 2"
+          v-bind:key="n + count / 2"
+        />
       </div>
       <v-spacer />
     </v-row>

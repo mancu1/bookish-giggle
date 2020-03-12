@@ -1,37 +1,29 @@
 <template>
   <v-app-bar absolute app>
-    <div class="d-flex align-center">
-      <!--      <v-img-->
-      <!--        alt="Vuetify Logo"-->
-      <!--        class="shrink mr-2"-->
-      <!--        contain-->
-      <!--        src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-light.png"-->
-      <!--        transition="scale-transition"-->
-      <!--        width="40"-->
-      <!--      />-->
+    <v-spacer class="col-5" />
+    <div class="align-center justify-center col-2">
+      <v-img
+        alt="Vuetify Logo"
+        class="shrink"
+        contain
+        :src="require('../../assets/logo.png')"
+        transition="scale-transition"
+        height="40"
+      />
     </div>
-    <v-spacer class="hidden-sm-and-down" />
-    <div class="d-flex align-center">
+    <div class="d-flex align-center col-5">
       <div class="hidden-sm-and-down">
-        <v-btn target="_blank" text>
+        <v-btn target="_blank" class="mx-1 px-0" text small>
           <span>Клиенту</span>
         </v-btn>
-        <v-btn target="_blank" text>
+        <v-btn target="_blank" class="mx-1 px-0" text small>
           <span>работнику</span>
         </v-btn>
-        <v-btn target="_blank" text>
+        <v-btn target="_blank" class="mx-1 px-0" text small>
           <span>арендодателю</span>
         </v-btn>
       </div>
-      <div class="mx-3 mt-4 align-center justify-center">
-        <v-text-field
-          dense
-          rounded
-          label="Поиск"
-          prepend-inner-icon="mdi-magnify"
-        >
-        </v-text-field>
-      </div>
+      <v-spacer />
       <div v-if="!isLogin">
         <v-btn color="#7a4999" dark @click="openPopup">
           <v-icon>mdi-login</v-icon>
